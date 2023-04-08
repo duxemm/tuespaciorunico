@@ -1,0 +1,7 @@
+<img src="{{IMAGE_RUNES}}" width="150px" height="165" *ngIf="isIniciar">
+
+<img src="/assets/archivos/img/runas-gif.gif" width="150px" height="165" *ngIf="isGif">
+
+<button (click)="iniciar()" *ngIf="isIniciar">Iniciar</button>
+
+<button (click)="detener()" *ngIf="isSeleccionar">Sleccionar</button>

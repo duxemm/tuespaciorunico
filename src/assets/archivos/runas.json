@@ -1,0 +1,166 @@
+[
+	{
+		"abrev": "fe",
+		"coord": "/assets/archivos/img/fehu.png"
+	},
+	{
+		"abrev": "fe-i",
+		"coord": "/assets/archivos/img/fehu.png"
+	},
+	{
+		"abrev": "ur",
+		"coord": "/assets/archivos/img/uruz.png"
+	},
+	{
+		"abrev": "ur-i",
+		"coord": "/assets/archivos/img/uruz-i.png"
+	},
+	{
+		"abrev": "th",
+		"coord": "/assets/archivos/img/thurizas.png"
+	},
+	{
+		"abrev": "th-i",
+		"coord": "/assets/archivos/img/thurizas-i.png"
+	},
+	{
+		"abrev": "an",
+		"coord": "/assets/archivos/img/anzus.png"
+	},
+	{
+		"abrev": "an-i",
+		"coord": "/assets/archivos/img/anzus-i.png"
+	},
+	{
+		"abrev": "ra",
+		"coord": "/assets/archivos/img/raido.png"
+	},
+	{
+		"abrev": "ra-i",
+		"coord": "/assets/archivos/img/raido-i.png"
+	},
+	{
+		"abrev": "ka",
+		"coord": "/assets/archivos/img/cano.png"
+	},
+	{
+		"abrev": "ka-i",
+		"coord": "/assets/archivos/img/cano-i.png"
+	},
+	{
+		"abrev": "ge",
+		"coord": "/assets/archivos/img/gebo.png"
+	},
+	{
+		"abrev": "wu",
+		"coord": "/assets/archivos/img/wunjo.png"
+	},
+	{
+		"abrev": "wu-i",
+		"coord": "/assets/archivos/img/wunjo-i.png"
+	},
+	{
+		"abrev": "ha",
+		"coord": "/assets/archivos/img/hagalaz.png"
+	},
+	{
+		"abrev": "na",
+		"coord": "/assets/archivos/img/nauthiz.png"
+	},
+	{
+		"abrev": "na-i",
+		"coord": "/assets/archivos/img/nauthiz-i.png"
+	},
+	{
+		"abrev": "is",
+		"coord": "/assets/archivos/img/isa.png"
+	},
+	{
+		"abrev": "je",
+		"coord": "/assets/archivos/img/jera.png"
+	},
+	{
+		"abrev": "ei",
+		"coord": "/assets/archivos/img/eihwaz.png"
+	},
+	{
+		"abrev": "pe",
+		"coord": "/assets/archivos/img/perth.png"
+	},
+	{
+		"abrev": "pe-i",
+		"coord": "/assets/archivos/img/perth-i.png"
+	},
+	{
+		"abrev": "al",
+		"coord": "/assets/archivos/img/algis.png"
+	},
+	{
+		"abrev": "al-i",
+		"coord": "/assets/archivos/img/algis-i.png"
+	},
+	{
+		"abrev": "so",
+		"coord": "/assets/archivos/img/sowelu.png"
+	},
+	{
+		"abrev": "te",
+		"coord": "/assets/archivos/img/teiwaz.png"
+	},
+	{
+		"abrev": "te-i",
+		"coord": "/assets/archivos/img/teiwaz-i.png"
+	},
+	{
+		"abrev": "be",
+		"coord": "/assets/archivos/img/berkana.png"
+	},
+	{
+		"abrev": "be-i",
+		"coord": "/assets/archivos/img/berkana-i.png"
+	},
+	{
+		"abrev": "eh",
+		"coord": "/assets/archivos/img/ehwaz.png"
+	},
+	{
+		"abrev": "eh-i",
+		"coord": "/assets/archivos/img/ehwaz-i.png"
+	},
+	{
+		"abrev": "ma",
+		"coord": "/assets/archivos/img/mannaz.png"
+	},
+	{
+		"abrev": "ma-i",
+		"coord": "/assets/archivos/img/mannaz-i.png"
+	},
+	{
+		"abrev": "la",
+		"coord": "/assets/archivos/img/laguz.png"
+	},
+	{
+		"abrev": "la-i",
+		"coord": "/assets/archivos/img/laguz-i.png"
+	},
+	{
+		"abrev": "da",
+		"coord": "/assets/archivos/img/dagaz.png"
+	},
+	{
+		"abrev": "od",
+		"coord": "/assets/archivos/img/odin.png"
+	},
+	{
+		"abrev": "ot",
+		"coord": "/assets/archivos/img/othila.png"
+	},
+	{
+		"abrev": "ot-i",
+		"coord": "/assets/archivos/img/othila-i.png"
+	},
+	{
+		"abrev": "in",
+		"coord": "/assets/archivos/img/inguz.png"
+	}
+]
