@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-tiradas',
   templateUrl: './tiradas.component.html',
-  styleUrls: ['./tiradas.component.less']
+  styleUrls: ['./tiradas.component.scss']
 })
 export class TiradasComponent {
 

@@ -13,6 +13,13 @@ import { ConsultasComponent } from './components/consultas/consultas/consultas.c
 import { ContactoComponent } from './components/contacto/contacto/contacto.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+//material components
+import {MaterialComponentsModule} from '../material.module';
+import { ConsultaConsejoComponent } from './components/modules/consulta-consejo/consulta-consejo.component';
+import { ConsultaSuperficialComponent } from './components/modules/consulta-superficial/consulta-superficial.component';
+import { ConsultaAmpliaComponent } from './components/modules/consulta-amplia/consulta-amplia.component';
+import { ConsultaProfundaComponent } from './components/modules/consulta-profunda/consulta-profunda.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,12 +30,17 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HistoriaComponent,
     TiradasComponent,
     ConsultasComponent,
-    ContactoComponent
+    ContactoComponent,
+    ConsultaConsejoComponent,
+    ConsultaSuperficialComponent,
+    ConsultaAmpliaComponent,
+    ConsultaProfundaComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MaterialComponentsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

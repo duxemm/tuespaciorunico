@@ -5,7 +5,7 @@ import runasJsonList from 'src/assets/archivos/runas.json';
 @Component({
   selector: 'app-runa-selector',
   templateUrl: './runa-selector.component.html',
-  styleUrls: ['./runa-selector.component.less']
+  styleUrls: ['./runa-selector.component.scss']
 })
 export class RunaSelectorComponent implements OnInit{
 
