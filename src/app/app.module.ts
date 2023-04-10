@@ -19,6 +19,7 @@ import { ConsultaConsejoComponent } from './components/modules/consulta-consejo/
 import { ConsultaSuperficialComponent } from './components/modules/consulta-superficial/consulta-superficial.component';
 import { ConsultaAmpliaComponent } from './components/modules/consulta-amplia/consulta-amplia.component';
 import { ConsultaProfundaComponent } from './components/modules/consulta-profunda/consulta-profunda.component';
+import { VerMasComponent } from './components/modules/ver-mas/ver-mas.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { ConsultaProfundaComponent } from './components/modules/consulta-profund
     ConsultaConsejoComponent,
     ConsultaSuperficialComponent,
     ConsultaAmpliaComponent,
-    ConsultaProfundaComponent
+    ConsultaProfundaComponent,
+    VerMasComponent
   ],
   imports: [
     BrowserModule,

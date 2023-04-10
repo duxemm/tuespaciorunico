@@ -1,7 +1,24 @@
-<img src="{{IMAGE_RUNES}}" width="150px" height="165" *ngIf="isIniciar">
+<mat-card id="card">
+  <div id="padre">
+    <div id="images">
+      <img src="{{ IMAGE_RUNES }}" id="runa" *ngIf="isIniciar" />
 
-<img src="/assets/archivos/img/runas-gif.gif" width="150px" height="165" *ngIf="isGif">
+      <img src="/assets/archivos/img/runas-gif.gif" id="gif" *ngIf="isGif" />
+    </div>
+    <div id="btns-box">
+      <button mat-raised-button id="btn" (click)="iniciar()" *ngIf="isIniciar">
+        Iniciar
+      </button>
 
-<button (click)="iniciar()" *ngIf="isIniciar">Iniciar</button>
-
-<button (click)="detener()" *ngIf="isSeleccionar">Sleccionar</button>
+      <button
+        mat-raised-button
+        id="btn"
+        (click)="detener()"
+        *ngIf="isSeleccionar"
+      >
+        Sleccionar
+      </button>
+    </div>
+    <div id="btn-mas" (click)="openDialog()" *ngIf="isDialog"><p id="p-mas">Ver mas</p></div>
+  </div>
+</mat-card>

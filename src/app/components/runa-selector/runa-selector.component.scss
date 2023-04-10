@@ -1,0 +1,80 @@
+#padre {
+  width: 238px;
+  height: 400px;
+  margin-top: 15px;
+  margin-left: 10px;
+  background-color: #fff;
+}
+
+#images {
+  width: 220px;
+  height: 330px;
+  margin: auto;
+  display: flex;
+  padding: 4px;
+  background-color: #fff;
+}
+
+#btns-box {
+  width: 200px;
+  height: 50px;
+  margin: auto;
+  display: flex;
+  background-color: #fff;
+}
+
+#btn {
+  font-size: large;
+  color: #346382;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+#runa {
+  width: 200px;
+  height: 310px;
+  margin-top: 0px;
+  margin-left: 10px;
+  padding-top: 3px;
+}
+
+#gif {
+  width: 200px;
+  height: 310px;
+  margin-top: 0px;
+  margin-left: 10px;
+  padding-top: 3px;
+}
+
+#info {
+  width: 850px;
+  height: 150px;
+  margin-left: 330px;
+  margin-top: 20px;
+  background-color: rgb(213, 212, 209);
+}
+
+#card {
+  width: 258px;
+  height: 430px;
+  background-color: #fff;
+  margin: auto;
+  display: flex;
+}
+
+#btn-mas {
+  background-color: #346382;
+  color: #fff;
+  width: 240px;
+  height: 35px;
+  margin: 10px auto;
+  display: flex; 
+  border-radius: 12px;
+  
+}
+
+#p-mas {
+  margin: auto;
+}

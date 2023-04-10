@@ -1,166 +1,289 @@
 [
 	{
 		"abrev": "fe",
-		"coord": "/assets/archivos/img/fehu.png"
+		"coord": "/assets/archivos/img/fehu.png",
+		"name": "fehu",
+		"sig": "posesiones",
+		"desc": "Runa de la realización, ambición satisfecha, amor realizado, recompensa recibida. Promete alimento desde el más mundano hasta el más sagrado. Investiga el significado del lucro y las ganancias. Averigua si para tu bienestar necesitas riquezas y posesiones o el dominio de ti mismo. Conserva lo que has ganado, pon atención en tiempos de buena fortuna para no dejarte llevar por tu éxito , evita ser imprudente. Goza y comparte tu fortuna."
 	},
 	{
 		"abrev": "fe-i",
-		"coord": "/assets/archivos/img/fehu.png"
+		"coord": "/assets/archivos/img/fehu.png",
+		"name": "fehu invertida",
+		"sig": "posesiones",
+		"desc": "Puedes sentir frustración y pérdidas pequeñas o grandes. A veces, tus esfuerzos no son suficientes y te sientes impotente. En vez de buscar la felicidad momentánea, analiza la situación y aprende de ella. Cuidado con situaciones engañosas. Aprende lo que realmente te motiva. Todo es temporal, todo va y todo viene."
 	},
 	{
 		"abrev": "ur",
-		"coord": "/assets/archivos/img/uruz.png"
+		"coord": "/assets/archivos/img/uruz.png",
+		"name": "uruz",
+		"sig": "fuerza",
+		"desc": "Tu existencia te exige más de lo que ofreces actualmente. El desarrollo y transformación implican incertidumbre y pueden llevar a un fallecimiento interno. El cambio personal es opcional, pero una nueva forma de vida siempre es superior. Prepárate para una posible pérdida y mantén una actitud humilde y principios inquebrantables."
 	},
 	{
 		"abrev": "ur-i",
-		"coord": "/assets/archivos/img/uruz-i.png"
+		"coord": "/assets/archivos/img/uruz-i.png",
+		"name": "uruz invertida",
+		"sig": "fuerza",
+		"desc": "Si no estás prestando atención, existe la posibilidad de que pierdas oportunidades y disminuyas tu posición. La posición de Uruz invertida indica advertencias de fracasos y desilusiones. Para aquellos que no están conscientes de su situación, esto puede ser un gran impacto. Es importante reflexionar sobre tu relación contigo mismo y aceptar tanto lo positivo como lo negativo de la vida, ya que todo comienza, avanza, termina y luego comienza de nuevo."
 	},
 	{
 		"abrev": "th",
-		"coord": "/assets/archivos/img/thurizas.png"
+		"coord": "/assets/archivos/img/thurisaz.png",
+		"name": "thurisaz",
+		"sig": "puerta",
+		"desc": "Existen oportunidades para mejorar tanto en el ámbito interno como externo. Es posible conectarse con lo inmaterial y divino. Se presenta la oportunidad de enfrentar la verdadera imagen de uno mismo, lo que se debe revisar antes de tomar acciones. Es importante fortalecer la paciencia y tomarse un momento para reflexionar sobre el pasado, incluyendo las enseñanzas, alegrías, logros y fracasos que han llevado hasta el momento presente. Es necesario soltar el pasado para recuperar la esencia."
 	},
 	{
 		"abrev": "th-i",
-		"coord": "/assets/archivos/img/thurizas-i.png"
+		"coord": "/assets/archivos/img/thurisaz-i.png",
+		"name": "thurisaz invertida",
+		"sig": "puerta",
+		"desc": "Cuando el crecimiento se acelera, es importante reflexionar y volver a evaluar el pasado. La actitud y la claridad de intención que tengas pueden influir en la calidad del cambio. Es recomendable evitar sufrir sin razón y no tomar decisiones precipitadas que puedan resultar en arrepentimientos y problemas más grandes. Controla tus impulsos y espera a tener una comprensión clara antes de proceder."
 	},
 	{
 		"abrev": "an",
-		"coord": "/assets/archivos/img/anzus.png"
+		"coord": "/assets/archivos/img/ansuz.png",
+		"name": "ansuz",
+		"sig": "señales",
+		"desc": "Recibir alertas a tiempo es un obsequio que incluye conocimiento, indicando el inicio de nuevas etapas. Presta atención en encuentros informales, especialmente con personas mayores. Mantén la mente abierta, incluso a individuos deshonestos, ya que pueden tener algo valioso que decir. Cuida de ti antes de ayudar a los demás y descubrirás un renovado sentido de unidad familiar."
 	},
 	{
 		"abrev": "an-i",
-		"coord": "/assets/archivos/img/anzus-i.png"
+		"coord": "/assets/archivos/img/ansuz-i.png",
+		"name": "ansuz invertida",
+		"sig": "señales",
+		"desc": "Es probable que estés preocupado por una falla en la comunicación o la falta de claridad en una situación pasada o presente. Es posible que te sientas restringido para aceptar lo que se te ofrece, y te abruma la sensación de que tus esfuerzos son inútiles. No obstante, debes recordar que esto es parte de tu proceso, es el momento de deshacerte de lo viejo y lo que te impide avanzar. Consideres la utilidad de la adversidad."
 	},
 	{
 		"abrev": "ra",
-		"coord": "/assets/archivos/img/raido.png"
+		"coord": "/assets/archivos/img/raido.png",
+		"name": "raido",
+		"sig": "viaje",
+		"desc": "Encuentra la manera correcta de actuar mediante la oración, la meditación o la sabiduría y sé paciente mientras los obstáculos se solucionan. Este camino lleva hacia la auto-sanación, transformación personal y unión, pero es importante mantener el equilibrio y evitar personas negativas. No te concentres en lo material y recuerda que es un viaje que debes hacer solo. Una vez que hayas dejado atrás tus cargas, el universo te apoyará y se unirá dentro de ti."
 	},
 	{
 		"abrev": "ra-i",
-		"coord": "/assets/archivos/img/raido-i.png"
+		"coord": "/assets/archivos/img/raido-i.png",
+		"name": "raido invertida",
+		"sig": "viaje",
+		"desc": "Es crucial atender las relaciones personales, ya que las rupturas son más comunes que las reconciliaciones. Es importante mantener una actitud positiva y gestionar situaciones de forma efectiva. Podría ser necesario sacrificar objetivos previos y los resultados pueden no ser los deseados. Pero los obstáculos pueden ser oportunidades para confirmar la dirección. Mantén la unión y la reunión como objetivos constantes."
 	},
 	{
 		"abrev": "ka",
-		"coord": "/assets/archivos/img/cano.png"
+		"coord": "/assets/archivos/img/kano.png",
+		"name": "kano",
+		"sig": "apertura",
+		"desc": "simboliza la claridad y el inicio de actividades, permitiéndonos experimentar la alegría de dar sin límites. Nos ayuda a distinguir lo importante y no importante en nuestra vida, favorece la apertura mutua en nuestras relaciones y nos recuerda que estamos en el lugar exacto donde debemos estar."
 	},
 	{
 		"abrev": "ka-i",
-		"coord": "/assets/archivos/img/cano-i.png"
+		"coord": "/assets/archivos/img/kano-i.png",
+		"name": "kano invertida",
+		"sig": "apertura",
+		"desc": "Es posible que aparezca una época difícil en cualquier ámbito, ya sea en una amistad, sociedad, matrimonio, equipo o en uno mismo. Es importante no ignorar esta situación, ya que podría significar perder una oportunidad valiosa. La runa al revés sugiere dejar atrás el pasado, encontrar estabilidad interna y no repetir antiguos comportamientos, mientras se espera por nuevas oportunidades."
 	},
 	{
 		"abrev": "ge",
-		"coord": "/assets/archivos/img/gebo.png"
+		"coord": "/assets/archivos/img/gebo.png",
+		"name": "gebo",
+		"sig": "asosiacion",
+		"desc": "La runa indica que pronto habrá una oportunidad de unirte a alguien o algo, pero es importante que no pierdas tu individualidad y esencia personal al hacerlo. Una unión fuerte y verdadera se logra cuando ambos miembros son independientes y únicos. Esta unión puede traer consigo regalos como libertad, complemento y confianza. También es importante considerar la unión con nosotros mismos y nuestro Yo superior, que nos permitirá embarcarnos en un viaje hacia el autoconocimiento y la comprensión personal."
 	},
 	{
 		"abrev": "wu",
-		"coord": "/assets/archivos/img/wunjo.png"
+		"coord": "/assets/archivos/img/wunjo.png",
+		"name": "wunjo",
+		"sig": "alegria",
+		"desc": "Después de un período de preocupación, se produce un cambio necesario y ahora estás listo para recibir bendiciones en forma de ganancias materiales, relaciones emocionales o bienestar. Es hora de celebrar tu éxito, ya que has recibido ayuda divina para superar cualquier obstáculo. Puede que tengas que renunciar a planes, ambiciones o metas existentes, pero al hacerlo, iniciarás un ciclo de renovación que te llevará a alinearte con tu verdadero yo."
 	},
 	{
 		"abrev": "wu-i",
-		"coord": "/assets/archivos/img/wunjo-i.png"
+		"coord": "/assets/archivos/img/wunjo-i.png",
+		"name": "wunjo invertida",
+		"sig": "alegria",
+		"desc": "Madurar es un proceso lento y difícil que puede despertar temores de la infancia. Durante una crisis, se debe reflexionar y considerar si se poseen las virtudes necesarias, como la seriedad y la sinceridad. Estas requieren paciencia, perseverancia y tranquilidad para mantener la claridad. Es importante concentrarse en el presente, ser honesto con los demás y confiar en el proceso. En momentos de crisis, esta Runa invertida puede ser una meditación beneficiosa."
 	},
 	{
 		"abrev": "ha",
-		"coord": "/assets/archivos/img/hagalaz.png"
+		"coord": "/assets/archivos/img/hagalaz.png",
+		"name": "hagalaz",
+		"sig": "destruccion",
+		"desc": "Este texto habla sobre la Runa de la destrucción elemental, que representa un momento de cambio, libertad, invención y liberación. Aunque puede haber destrozos y la sensación de que las cosas están fuera de control, es importante recordar que tu propia naturaleza está creando lo que sucede y que tu fuerza interna es el apoyo y guía que necesitas. La destrucción puede ser una oportunidad para crecer y desarrollarte."
 	},
 	{
 		"abrev": "na",
-		"coord": "/assets/archivos/img/nauthiz.png"
+		"coord": "/assets/archivos/img/nauthiz.png",
+		"name": "nauthiz",
+		"sig": "restriccion",
+		"desc": "Identifica tu lado oscuro y trabaja con él. Examina qué provoca inestabilidad y acepta las dificultades como maestras y aliadas. Habrá retrasos y razones para repensar planes y metas. Trabaja en ti mismo con buena voluntad y perseverancia. No te lo tomes personal. Saldar deudas, recuperar la armonía y corregir son importantes. Rectifica antes de progresar y considera la utilidad de las adversidades."
 	},
 	{
 		"abrev": "na-i",
-		"coord": "/assets/archivos/img/nauthiz-i.png"
+		"coord": "/assets/archivos/img/nauthiz-i.png",
+		"name": "nauthiz invertida",
+		"sig": "restriccion",
+		"desc": "La carta Nauthiz Invertida representa al maestro disfrazado que trae dolor y limitaciones. Ayuda a encontrar la luz en la oscuridad y despertar la creatividad. Es importante actuar y experimentar con el lado oscuro de la transición para traerlo a la luz. Controlar el enojo y los impulsos, mantener la fe y la modestia son esenciales."
 	},
 	{
 		"abrev": "is",
-		"coord": "/assets/archivos/img/isa.png"
+		"coord": "/assets/archivos/img/isa.png",
+		"name": "isa",
+		"sig": "paro",
+		"desc": "Tu espíritu está en letargo. Estás en una situación en la que no puedes hacer nada más que ceder o sacrificar algo importante. Tus planes se han detenido y te sientes agotado por viejos hábitos inefectivos. No te juzgues, mantén la calma y ten paciencia. Estás en la fase previa al nacimiento, por lo que los logros positivos parecen improbables. Ceder demuestra valentía y sabiduría. No esperes ayuda, sigue adelante con precaución y no te aferres a los viejos hábitos. Confía en tu propio proceso y espera señales de cambio."
 	},
 	{
 		"abrev": "je",
-		"coord": "/assets/archivos/img/jera.png"
+		"coord": "/assets/archivos/img/jera.png",
+		"name": "jera",
+		"sig": "cosecha",
+		"desc": "Esta runa trae consigo la promesa de resultados positivos en cualquier tarea o proyecto en el que estés involucrado. Sin embargo, debes ser consciente de que estos resultados no llegarán rápidamente y que se requiere un período de espera. Si estás dedicado a una labor que lleva mucho tiempo, toma este mensaje como un estímulo para perseverar y seguir adelante. Recuerda que la paciencia es fundamental para reconocer tu propio proceso y para cosechar los frutos de tus esfuerzos a su debido tiempo."
 	},
 	{
 		"abrev": "ei",
-		"coord": "/assets/archivos/img/eihwaz.png"
+		"coord": "/assets/archivos/img/eihwaz.png",
+		"name": "eihwaz",
+		"sig": "defensa",
+		"desc": "Si te encuentras con un obstáculo, no te apresures a solucionarlo. Mantén la paciencia y no busques resultados inmediatos. La Runa asociada a este mensaje se refiere a las dificultades que pueden aparecer al inicio de una nueva etapa, lo que significa que es posible que debas esperar un tiempo para superarlas. Es importante que perseveres y seas previsor para lograr superar estos obstáculos. Anticípate a las dificultades y toma medidas adecuadas para enfrentarlas.."
 	},
 	{
 		"abrev": "pe",
-		"coord": "/assets/archivos/img/perth.png"
+		"coord": "/assets/archivos/img/perth.png",
+		"name": "perth",
+		"sig": "iniciacion",
+		"desc": "La Runa de Perth se relaciona con el Fénix, un ser que renace de sus cenizas. Este símbolo representa cambios poderosos y sorpresas terrenales. En términos humanos, indica una ampliación de la perspectiva de la vida y un despertar psíquico. También puede ser el inicio de algo nuevo y traer sorpresas agradables o no. Bajo la influencia de Perth, pueden aparecer objetos perdidos, declaraciones de amor y noticias inesperadas. Es importante soltar todo para permitir la renovación espiritual."
 	},
 	{
 		"abrev": "pe-i",
-		"coord": "/assets/archivos/img/perth-i.png"
+		"coord": "/assets/archivos/img/perth-i.png",
+		"name": "perth invertida",
+		"sig": "iniciacion",
+		"desc": "Reúne tus fuerzas y enfócate en tu vida para avanzar. Perth aconseja dejar de lado los resultados y no aferrarse a los logros pasados para vivir plenamente el presente. Aunque puedas sentirte agobiado por las dificultades, es importante verlas como oportunidades de crecimiento. Cada obstáculo es una prueba de carácter en el proceso de transformación personal. La perseverancia es clave en este camino, mantente centrado, busca el lado positivo de las situaciones y sigue adelante."
 	},
 	{
 		"abrev": "al",
-		"coord": "/assets/archivos/img/algis.png"
+		"coord": "/assets/archivos/img/algiz.png",
+		"name": "algiz",
+		"sig": "proteccion",
+		"desc": "Enfrenta con calma los cambios bruscos en tu vida y prepárate para enfrentar desafíos y posibilidades. Sin embargo, es importante que evites actuar de forma ilegal o dejarte influenciar por malas compañías. Mantén la perspectiva y sé consciente de tus decisiones. Si experimentas dolor, no lo reprimas y acéptalo para avanzar."
 	},
 	{
 		"abrev": "al-i",
-		"coord": "/assets/archivos/img/algis-i.png"
+		"coord": "/assets/archivos/img/algiz-i.png",
+		"name": "algiz invertida",
+		"sig": "proteccion",
+		"desc": "Esta runa te aconseja ser cuidadoso con tu salud, no agregar más carga a la de otros y ser selectivo con las relaciones que forjas en este momento. Si decides involucrarte con personas que pueden estar utilizando tu ayuda, sé consciente de las consecuencias y asume la responsabilidad. Aunque no tengas éxito en tu iniciativa, siempre habrá algo que aprender de la experiencia. La templanza y la cortesía son las cualidades que debes cultivar para lograrlo."
 	},
 	{
 		"abrev": "so",
-		"coord": "/assets/archivos/img/sowelu.png"
+		"coord": "/assets/archivos/img/sowelu.png",
+		"name": "sowelu",
+		"sig": "totalidad",
+		"desc": "El significado de la runa radica en lo que necesitas como persona para alcanzar tu verdadero potencial, y te conduce desde el núcleo de tu identidad. Esencialmente, debes reconocer quién eres y manifestarlo de forma creativa, al mismo tiempo que te renuevas y evitas situaciones que te obliguen a actuar. Tu objetivo es encontrar un equilibrio interno y aceptar lo que has ignorado. No te permitas ser arrastrado por la euforia, supera cualquier negación y actúa con integridad para lograr un cambio real."
 	},
 	{
 		"abrev": "te",
-		"coord": "/assets/archivos/img/teiwaz.png"
+		"coord": "/assets/archivos/img/teiwaz.png",
+		"name": "teiwaz",
+		"sig": "guerrero",
+		"desc": "La runa aconseja luchar sin aferrarse a resultados, seguir el flujo divino y evitar auto-sabotearse. Es importante mirar hacia adentro y cultivar un carácter fuerte. La búsqueda de auto-descubrimiento requiere perseverancia y determinación. En relaciones, trabajo e ideales, se recomienda paciencia y perseverancia."
 	},
 	{
 		"abrev": "te-i",
-		"coord": "/assets/archivos/img/teiwaz-i.png"
+		"coord": "/assets/archivos/img/teiwaz-i.png",
+		"name": "teiwaz invertida",
+		"sig": "guerrero",
+		"desc": "Toma medidas oportunas para evitar el desperdicio de energía. No te angusties si una relación no perdura mucho tiempo, simplemente cumple su ciclo. La sinceridad y la confianza son fundamentales. Asegúrate de no estar tratando de ser alguien que no eres o de enfocarte solamente en obtener resultados en lugar de concentrarte en la tarea en sí. Busca las respuestas en tu interior. Al consultar las Runas, te conectas con tu Yo como un Guerrero Espiritual."
 	},
 	{
 		"abrev": "be",
-		"coord": "/assets/archivos/img/berkana.png"
+		"coord": "/assets/archivos/img/berkana.png",
+		"name": "berkana",
+		"sig": "crecimiento",
+		"desc": "La runa Berkana representa el progreso y la fertilidad en diversos aspectos de la vida, y para lograrlo es necesario superar obstáculos, comprender profundamente las cosas, tener una voluntad clara y controlada, limpiar y aclarar cualquier área oscura, y recibir ayuda experta en ocasiones. La modestia, la paciencia, la justicia y la generosidad son esenciales para lograr el crecimiento a través de la perseverancia y una actitud adecuada."
 	},
 	{
 		"abrev": "be-i",
-		"coord": "/assets/archivos/img/berkana-i.png"
+		"coord": "/assets/archivos/img/berkana-i.png",
+		"name": "berkana invertida",
+		"sig": "crecimiento",
+		"desc": "La aparición de eventos o características personales pueden obstaculizar el progreso de una nueva vida. Es posible que te sientas indeciso al tomar decisiones, pero es importante prestar atención y analizar lo que ha sucedido, tus propias necesidades y las de los demás. Debes preguntarte si estás priorizando tus deseos por encima de los de los demás y detectar los obstáculos que están impidiendo el avance. Es fundamental proporcionar los nutrientes necesarios para asegurar el crecimiento adecuado."
 	},
 	{
 		"abrev": "eh",
-		"coord": "/assets/archivos/img/ehwaz.png"
+		"coord": "/assets/archivos/img/ehwaz.png",
+		"name": "ehwaz",
+		"sig": "movimiento",
+		"desc": "La Runa de Ehwaz significa cambio y transición. Es símbolo de mejora en cualquier situación y representa el progreso gradual y continuo. Se requiere esfuerzo y dedicación para sacar el máximo provecho de ella. Si aparece, indica seguridad en la posición actual y preparación para enfrentar el futuro con confianza. Compartir la buena fortuna es importante, ya que se relaciona con el poder del sol para fomentar la vida y la iluminación."
 	},
 	{
 		"abrev": "eh-i",
-		"coord": "/assets/archivos/img/ehwaz-i.png"
+		"coord": "/assets/archivos/img/ehwaz-i.png",
+		"name": "ehwaz invertida",
+		"sig": "movimiento",
+		"desc": "Es importante asegurarse de que las acciones que se realizan o se dejan de hacer sean oportunas. Es fundamental reconocer que no todas las oportunidades son adecuadas y que algunas pueden no ser apropiadas para nosotros. A veces, la mejor acción puede ser evitar hacer algo. Si te sientes confundido y no estás seguro si debes actuar, es importante considerar lo que es adecuado para ti. Recuerda que lo que te pertenece, eventualmente llegará a ti."
 	},
 	{
 		"abrev": "ma",
-		"coord": "/assets/archivos/img/mannaz.png"
+		"coord": "/assets/archivos/img/mannaz.png",
+		"name": "mannaz",
+		"sig": "yo",
+		"desc": "Se debe ser claro y dispuesto a cambiar para tener relaciones positivas con los demás. Se recomienda mantener la humildad, tolerancia y moderación para lograr dirección en la vida. Ser receptivo a los impulsos y vivir la vida de manera no convencional es importante. Recordar el pasado y enfocarse en lo que perdura, evitar buscar crédito por los logros y centrarse en la labor en sí misma es crucial. Conocerse a uno mismo y evitar los excesos es la clave."
 	},
 	{
 		"abrev": "ma-i",
-		"coord": "/assets/archivos/img/mannaz-i.png"
+		"coord": "/assets/archivos/img/mannaz-i.png",
+		"name": "mannaz invertida",
+		"sig": "yo",
+		"desc": "Si sientes que no puedes avanzar, no pidas ayuda a otros. En vez de eso, busca en tu interior y reflexiona en silencio acerca del obstáculo que te impide progresar en cualquier área de tu vida. Debes reconocer que el enemigo externo es un reflejo de lo que no has querido aceptar o reconocer en ti mismo. Es importante que no te sientas superior. El desafío es romper los hábitos del pasado y empezar de nuevo en tu vida espiritual. Siempre estarás en el principio."
 	},
 	{
 		"abrev": "la",
-		"coord": "/assets/archivos/img/laguz.png"
+		"coord": "/assets/archivos/img/laguz.png",
+		"name": "laguz",
+		"sig": "corriente",
+		"desc": "Vive tus emociones, relaciones y vocaciones sin evaluar ni comprender, satisface tus necesidades emocionales y avanza a tu propio ritmo. Confía en tus instintos para alcanzar el éxito y busca armonía interna y externa. Empieza una transformación espiritual y permítete ser guiado por fuerzas invisibles. Este es el final feliz de los cuentos de hadas."
 	},
 	{
 		"abrev": "la-i",
-		"coord": "/assets/archivos/img/laguz-i.png"
+		"coord": "/assets/archivos/img/laguz-i.png",
+		"name": "laguz invertida",
+		"sig": "corriente",
+		"desc": "Se emite una precaución sobre no sobrepasar los límites y evitar el exceso de esfuerzo. Es importante no exceder la capacidad que se ha alcanzado hasta el momento en la vida. La posición inversa de Laguz indica una posible falta de conexión con la sabiduría instintiva, lo que podría generar un desequilibrio. El enfoque debe ser hacia el interior, valorando tanto el lado receptivo como el lógico de la personalidad guerrera."
 	},
 	{
 		"abrev": "da",
-		"coord": "/assets/archivos/img/dagaz.png"
+		"coord": "/assets/archivos/img/dagaz.png",
+		"name": "dagaz",
+		"sig": "transformacion",
+		"desc": "Es posible se presente un cambio radical de actitud que puede transformar completamente la vida. Aunque puede ser desafiante, es importante tener confianza y dar un salto de fe sin actuar imprudentemente. El proceso requiere trabajo duro y compromiso, pero también puede llevar a logros y prosperidad. Abordarlo con alegría y determinación es clave."
 	},
 	{
 		"abrev": "od",
-		"coord": "/assets/archivos/img/odin.png"
+		"coord": "/assets/archivos/img/odin.png",
+		"name": "odin",
+		"sig": "blanca",
+		"desc": "La Runa Blanca simboliza la confianza total y puede llevar a una muerte simbólica en cualquier área de la vida. Dejar ir el control es el desafío final para el Guerrero Espiritual. El Inconocible está en movimiento y es importante tener buena voluntad y no tratar de controlar lo que aún no tiene forma. La Runa Blanca puede enfrentar los temores más profundos y es una prueba de fe en el camino del karma. A pesar de los obstáculos del pasado, puede ser una puerta hacia nuevos principios"
 	},
 	{
 		"abrev": "ot",
-		"coord": "/assets/archivos/img/othila.png"
+		"coord": "/assets/archivos/img/othila.png",
+		"name": "othila",
+		"sig": "separacion",
+		"desc": "Es el momento de tomar diferentes direcciones. Lo correcto sería aceptar la derrota y probablemente retirarse, teniendo en cuenta cuándo y cómo hacerlo y, sobre todo, teniendo la fuerza de voluntad para hacerlo. Este proceso de renuncia puede ser especialmente difícil si se trata de un comportamiento arraigado o de alguna parte de la cultura personal. Ya sea el apego a una posición social, al trabajo, a las creencias, a una relación sentimental o de amistad, o incluso a lo que se considera un derecho de nacimiento."
 	},
 	{
 		"abrev": "ot-i",
-		"coord": "/assets/archivos/img/othila-i.png"
+		"coord": "/assets/archivos/img/othila-i.png",
+		"name": "othila invertida",
+		"sig": "separacion",
+		"desc": "Es crucial considerar los beneficios colectivos y no estar limitados por autoridades obsoletas. La honestidad es clave durante un posible cambio de costumbres, ya que la negligencia podría dañar a otros y a uno mismo. Es importante desarrollar habilidades de adaptabilidad y resolución de problemas."
 	},
 	{
 		"abrev": "in",
-		"coord": "/assets/archivos/img/inguz.png"
+		"coord": "/assets/archivos/img/inguz.png",
+		"name": "inguz",
+		"sig": "fertilidad",
+		"desc": "La runa simboliza el deseo de mejorar relaciones y compartir, la búsqueda de similitudes y el anhelo de ser deseado. La determinación e iniciativa son esenciales para completar tareas pendientes y alcanzar un nuevo comienzo. No dejar nada incompleto resuelve situaciones del pasado y libera de la tensión e incertidumbre. Es posible que se deban dejar rutinas, hábitos, relaciones o actividades que ya no representan. Mantener los pies en la tierra y enfocarse en lo positivo."
 	}
 ]

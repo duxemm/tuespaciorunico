@@ -1,4 +1,7 @@
 export interface RunasInterface {
-    "abrev": String;
-    "coord": String;
+    "abrev": string;
+    "coord": string;
+    "name": string;
+    "sig": string;
+    "desc": string;
 }
