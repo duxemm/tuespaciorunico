@@ -73,6 +73,15 @@ export class RunaSelectorComponent implements OnInit {
   isGif: boolean = false;
   isDialog: boolean = false;
 
+  padre = 'padre-ap';
+  images = 'images-ap';
+  btnsBox = 'btns-box-ap';
+  btn = 'btn-ap'
+  card = 'card-ap';
+  runa = 'runa-ap';
+  gif = 'gif-ap';
+  btnMas = 'btn-mas-ap';
+
   constructor(public dialog: MatDialog) {}
 
   ngOnInit() {}

@@ -77,4 +77,75 @@
 
 #p-mas {
   margin: auto;
+  // background-color: #346382;
+  color: #fff;
+}
+
+// *************** Estilos para Amplia y Profunda *****************
+#card-ap {
+  width: 180px;
+  height: 270px;
+  background-color: #fff;
+  margin: auto;
+  display: flex;
+}
+
+#padre-ap {
+  width: 160px;
+  height: 250px;
+  margin: auto;
+  display: inline;
+  background-color: #fff;
+}
+
+#images-ap {
+  width: 140px;
+  height: 185px;
+  margin: auto;
+  display: flex;
+  padding: 4px;
+  background-color: #fff;
+}
+
+#btns-box-ap {
+  width: 160px;
+  height: 40px;
+  margin: auto;
+  display: flex;
+  background-color: #fff;
+}
+
+#btn-ap {
+  font-size: small;
+  color: #346382;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+#runa-ap {
+  width: 150px;
+  height: 170px;
+  margin: auto;
+  display: flex;
+}
+
+#gif-ap {
+  width: 180px;
+  height: 138px;
+  margin: auto;
+  display: flex;
+  padding-top: 3px;
+}
+
+#btn-mas-ap {
+  background-color: #346382;
+  color: #fff;
+  width: 130px;
+  height: 35px;
+  margin: 10px auto;
+  display: flex; 
+  border-radius: 12px;
+  font-size: small;
 }
