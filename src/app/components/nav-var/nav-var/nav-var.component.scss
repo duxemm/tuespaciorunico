@@ -7,7 +7,8 @@
 #btn-li:hover {
   background-color: #346382;
   background-image: linear-gradient(#2b4049, #5c8694);
-  border: #2b4049 solid 1px;
+  // border: #2b4049 solid 1px;
+  text-decoration: underline;
   padding: 15px;
   margin: auto;
   font-size: medium;
@@ -15,6 +16,7 @@
 
 #btn-li {
   margin: auto 5px;
+  font-family: 'Charm', cursive;
 }
 
 #ul {
@@ -33,11 +35,11 @@
 }
 
 #div-hl {
-  margin-left: 48%;
+  margin-left: 45%;
 }
 
 #btn-t {
   font-family: 'Caesar Dressing', cursive;
-  font-size: 30px;
+  font-size: 34px;
   color: #fff;
 }

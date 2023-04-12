@@ -8,3 +8,21 @@
   color: #3c535b;
   font-size: x-large;
 }
+
+#rules {
+  font-family: "Charm";
+  font-size: large;
+  line-height: 25px;
+  // text-align: start;
+}
+
+#instrucciones-p {
+  display: flex;
+  width: 100%;
+}
+
+#instrucciones {
+  margin: auto;
+  width: 80%;
+  text-align: justify;
+}

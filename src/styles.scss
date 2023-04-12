@@ -1,34 +1,47 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
-
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
 
 #txto {
-    margin: auto;
-    width: 550px;
-    text-align: justify;
-    font-size: 17px;
-    font-family: 'Charm', cursive;
+  margin: auto;
+  width: 550px;
+  text-align: justify;
+  font-size: large;
+  font-family: "Charm", cursive;
+  line-height: 28px;
 }
 
 #card-text {
-    width: 800px;
-    padding: 20px 0px;
-    margin: auto;
-    display: flex;
+  width: 800px;
+  padding: 20px 0px;
+  margin: auto;
+  display: flex;
 }
 
 #txto-ap {
-    margin: auto;
-    width: 550px;
-    text-align: justify;
-    font-size: x-small;
+  margin: auto;
+  width: 550px;
+  text-align: justify;
+  font-size: 12px;
 }
 
 #card-text-ap {
-    width: 800px;
-    padding: 20px 0px;
-    margin: auto;
-    display: flex;
+  width: 800px;
+  padding: 20px 0px;
+  margin: auto;
+  display: flex;
+}
+
+#desc {
+  font-family: "Charm", cursive;
+  margin: 8px auto;
+  text-align: center;
+  font-size: large;
 }
