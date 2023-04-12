@@ -1,27 +1,58 @@
 #body {
-    width: 400px;
+  width: auto;
+  height: auto;
+  background-color: #346382;
+  background-image: linear-gradient(to right, #1d2945, #646b6d);
 }
 
 #div {
-    text-align: center;
-    width: 380px;
-    margin: auto;
+  text-align: center;
+  width: 380px;
+  margin: auto;
+  //   font-family: "Caesar Dressing";
+  font-size: 30px;
+  //   color: #3c535b;
+  color: #fff;
+}
+
+#div-sub {
+  text-align: center;
+  width: 380px;
+  margin: auto;
+  font-size: 22px;
+  font-style: oblique 60deg;
+  color: #fff;
 }
 
 #txt {
-    width: 360px;
-    text-align: center;
-    margin: auto;
-    display: flex;
+  width: 360px;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  font-size: medium;
+  color: #fff;
 }
 
 #img {
-    width: 200px;
-    height: 250px;
-    margin: auto;
-    display: flex;
+  width: 200px;
+  height: 250px;
+  margin: auto;
+  display: flex;
 }
 
-#div-img {
-    background-color: black;
+#btn-close {
+  // border-radius: 100%;
+  color: #000;
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+//   z-index: 1;
+  margin-left: 338px;
+  margin-top: 6px;
+}
+
+#btn-close:hover {
+  width: 35px;
+  height: 35px;
 }

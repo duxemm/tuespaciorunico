@@ -1,4 +1,40 @@
 .design {
-    background-color: black;
-    margin-bottom: 0%;
+  background-color: rgb(115, 118, 129);
+  background-image: linear-gradient(#5c8694, #7dbdd2);
+  color: #fff;
+  height: auto;
+}
+
+#rc {
+  list-style-type: none;
+  display: flex;
+}
+
+#li-rc {
+  margin: auto 20px;
+  font-size: large;
+}
+
+#cpr {
+  list-style-type: none;
+  display: flex;
+}
+
+#li-cpr {
+  margin: auto auto 15px;
+  font-size: x-large;
+}
+
+#dp {
+    margin: auto;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+
+  font-size: medium;
 }

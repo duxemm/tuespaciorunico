@@ -1,11 +1,11 @@
 <div id="body">
+  <button mat-fab id="btn-close" mat-dialog-close>X</button>
   <h1 mat-dialog-title id="div">{{ data.name | uppercase }}</h1>
-  <h3 mat-dialog-content id="div">{{ data.sig | titlecase }}</h3>
+  <h3 mat-dialog-content id="div-sub">{{ data.sig | titlecase }}</h3>
   <div id="#div-img">
     <img src="{{ data.img }}" id="img" />
   </div>
-  <div><p id="txt">{{ data.text }}</p></div>
-</div>
-<div mat-dialog-actions>
-  <button mat-button mat-dialog-close>Close</button>
+  <div>
+    <p mat-dialog-content id="txt">{{ data.text }}</p>
+  </div>
 </div>
