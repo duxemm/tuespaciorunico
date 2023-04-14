@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { RunasInterface } from 'src/app/interfaces/runas-interface';
 import { MatDialog } from '@angular/material/dialog';
 import runasJsonList from 'src/assets/archivos/runas.json';
@@ -10,6 +10,9 @@ import { VerMasComponent } from '../modules/ver-mas/ver-mas.component';
   styleUrls: ['./runa-selector.component.scss'],
 })
 export class RunaSelectorComponent implements OnInit {
+  @Input() MINUMERO: string = '';
+  @Input() MICONSULTA: string = '';
+
   runasList = [
     'fe',
     'fe-i',
@@ -76,23 +79,63 @@ export class RunaSelectorComponent implements OnInit {
   padre = 'padre-ap';
   images = 'images-ap';
   btnsBox = 'btns-box-ap';
-  btn = 'btn-ap'
+  btn = 'btn-ap';
   card = 'card-ap';
-  runa = 'runa-ap';
+
   gif = 'gif-ap';
   btnMas = 'btn-mas-ap';
 
+  runa = 'runa-ap';
+  isButtonDisable = false;
+
+  miConsulta = 'CC';
+  miNumero = '0';
+  localS: any;
+
   constructor(public dialog: MatDialog) {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.miConsulta = this.MICONSULTA;
+    this.miNumero = this.MINUMERO;
+
+    setInterval(() => {
+      this.validarFuncionalidad()
+     }, 200);
+  }
+
+  validarFuncionalidad() {
+    try {
+      this.localS = localStorage.getItem(this.miConsulta);
+    } catch (error) {
+      this.localS = '{}';
+    }
+
+    this.localS = JSON.parse(this.localS);
+
+    console.log('validar funcionalidad ON');
+    if (this.miConsulta !== 'CC' && this.miNumero !== '0') {
+      let mn = parseInt(this.miNumero) - 1;     
+      if (this.localS[mn.toString()] === "false") {
+        this.runa = 'runa-disable';
+        this.isButtonDisable = true;
+      } 
+
+      if (this.localS[mn.toString()] === "true") {
+        console.log('entro a activar');
+        
+        this.runa = 'runa-ap';
+        this.isButtonDisable = false;
+      }
+      
+    }
+  }
 
   iniciar() {
-    console.log('Iniciando.....');
 
     this.isIniciar = false;
     this.isSeleccionar = true;
     this.isGif = true;
-    this.isDialog= false;
+    this.isDialog = false;
 
     this.contador = -1;
     this.IMAGE_RUNES = '/assets/archivos/img/runas-gif.gif';
@@ -102,10 +145,8 @@ export class RunaSelectorComponent implements OnInit {
   }
 
   seleccionar() {
-
     this.contador++;
     this.shuffledNumbersMethod();
-    
   }
 
   detener() {
@@ -123,22 +164,32 @@ export class RunaSelectorComponent implements OnInit {
     this.isSeleccionar = false;
     this.isIniciar = true;
     this.isDialog = true;
+
+    this.localS[this.miNumero] = "true";
+
+    localStorage.setItem(this.miConsulta, JSON.stringify(this.localS));
+    
   }
 
   shuffledNumbersMethod() {
-
     return this.runasList.sort(function () {
       return Math.random() - 0.5;
     });
-
   }
 
   findRuna(abrevRune: String) {
-    this.IMAGE_RUNES = this.runasJson.filter((runa) => runa.abrev == abrevRune)[0].coord;
-    this.runaName = this.runasJson.filter((runa) => runa.abrev == abrevRune)[0].name;
-    this.runaSig = this.runasJson.filter((runa) => runa.abrev == abrevRune)[0].sig;
-    this.runaDesc = this.runasJson.filter((runa) => runa.abrev == abrevRune)[0].desc;
-
+    this.IMAGE_RUNES = this.runasJson.filter(
+      (runa) => runa.abrev == abrevRune
+    )[0].coord;
+    this.runaName = this.runasJson.filter(
+      (runa) => runa.abrev == abrevRune
+    )[0].name;
+    this.runaSig = this.runasJson.filter(
+      (runa) => runa.abrev == abrevRune
+    )[0].sig;
+    this.runaDesc = this.runasJson.filter(
+      (runa) => runa.abrev == abrevRune
+    )[0].desc;
   }
 
   openDialog() {
@@ -147,8 +198,8 @@ export class RunaSelectorComponent implements OnInit {
         name: this.runaName,
         text: this.runaDesc,
         img: this.IMAGE_RUNES,
-        sig: this.runaSig
-      }
+        sig: this.runaSig,
+      },
     });
   }
 }

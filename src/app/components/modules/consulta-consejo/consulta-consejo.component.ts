@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class ConsultaConsejoComponent {
 
+  NUMDELPADRE: string = '0';
+  CONSULTADELPADRE: string = 'CC';
 }

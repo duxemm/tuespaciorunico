@@ -6,7 +6,7 @@
       <img src="/assets/archivos/img/runas-gif.gif" id="{{gif}}" *ngIf="isGif" />
     </div>
     <div id="{{btnsBox}}">
-      <button mat-raised-button id="{{btn}}" (click)="iniciar()" *ngIf="isIniciar">
+      <button mat-raised-button id="{{btn}}" (click)="iniciar()" *ngIf="isIniciar" disabled= {{isButtonDisable}}>
         Iniciar
       </button>
 
