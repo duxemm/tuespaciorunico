@@ -24,3 +24,18 @@
 #div-l3 {
   display: flex;
 }
+
+@media screen and (max-width: 769px) {
+  #ul-ll {
+    overflow: scroll;
+    white-space: nowrap;
+    text-align: center;
+  }
+
+  #li-ll {
+    display: inline-block;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+}

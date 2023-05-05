@@ -37,15 +37,16 @@ strong {
 
 @media screen and (max-width: 769px) {
   #card {
-    width: 100%;
+    width: 90%;
   }
 
   #instrucciones {
     width: 90%;
   }
+
 }
 
-@media screen and (min-width: 426px) {
+@media screen and (max-width: 426px) {
   #card {
     width: 100%;
   }

@@ -8,3 +8,21 @@
 #padre {
     margin: 20px;
 }
+
+@media screen and (max-width: 769px) {
+    #padre {
+        width: auto;
+    }
+  
+}
+
+@media screen and (max-width: 320px) {
+    #padre {
+        width: auto;
+    }
+
+    #cont {
+        width: 100%;
+    }
+  
+}

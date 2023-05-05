@@ -1,30 +1,38 @@
-<div>
-  <div id="card-text">
-    <p id="txto">
-      **En este apartado encontrarás un simulador que representa la consulta de
-      tres runas, la cual, como su nombre lo indica, nos muestra un panorama
-      superficial de la cuestión presentada. El orden de ejecución y lectura es
-      de derecha a izquierda. Sobre de cada runa se visualiza el escenario correspondiente.** <br><br>
-      Para más información sobre esta tirada, haz clic aquí.
-    </p>
-  </div>
-  <div id="div-list">
-    <ul id="ul">
-      <li id="li">
-        <!-- Runa 3 -->
-        <p id="desc">3.- Nueva situaciòn</p>
-        <app-runa-selector [MINUMERO]= NUMDELPADREDOS [MICONSULTA]= CONSULTADELPADRE></app-runa-selector>
-      </li>
-      <li id="li">
-        <!-- Runa 2 -->
-        <p id="desc">2.- Accion recomendada </p>
-        <app-runa-selector [MINUMERO]= NUMDELPADREUNO [MICONSULTA]= CONSULTADELPADRE></app-runa-selector>
-      </li>
-      <li id="li">
-        <!-- Runa 1 -->
-        <p id="desc">1.- Situaciòn</p>
-        <app-runa-selector [MINUMERO]= NUMDELPADRECERO [MICONSULTA]= CONSULTADELPADRE></app-runa-selector>
-      </li>
-    </ul>
-  </div>
+<div id="card-text">
+  <p id="txto">
+    **En este apartado encontrarás un simulador que representa la consulta de
+    tres runas, la cual, como su nombre lo indica, nos muestra un panorama
+    superficial de la cuestión presentada. El orden de ejecución y lectura es de
+    derecha a izquierda. Sobre de cada runa se visualiza el escenario
+    correspondiente.** <br /><br />
+    Para más información sobre esta tirada, haz clic aquí.
+  </p>
+</div>
+<div id="div-list">
+  <ul id="ul">
+    <li id="li">
+      <!-- Runa 3 -->
+      <p id="desc">3.- Nueva situaciòn</p>
+      <app-runa-selector
+        [MINUMERO]="NUMDELPADREDOS"
+        [MICONSULTA]="CONSULTADELPADRE"
+      ></app-runa-selector>
+    </li>
+    <li id="li">
+      <!-- Runa 2 -->
+      <p id="desc">2.- Accion recomendada</p>
+      <app-runa-selector
+        [MINUMERO]="NUMDELPADREUNO"
+        [MICONSULTA]="CONSULTADELPADRE"
+      ></app-runa-selector>
+    </li>
+    <li id="li">
+      <!-- Runa 1 -->
+      <p id="desc">1.- Situaciòn</p>
+      <app-runa-selector
+        [MINUMERO]="NUMDELPADRECERO"
+        [MICONSULTA]="CONSULTADELPADRE"
+      ></app-runa-selector>
+    </li>
+  </ul>
 </div>

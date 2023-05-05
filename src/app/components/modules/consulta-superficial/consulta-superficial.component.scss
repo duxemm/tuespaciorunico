@@ -9,5 +9,29 @@
 }
 
 #div-list {
- display: flex;
+  display: flex;
+}
+
+@media screen and (max-width: 769px) {
+  #ul {
+    overflow: auto;
+    white-space: nowrap;
+  }
+
+  #li {
+    display: inline-block;
+    text-align: right;
+    padding: 14px;
+    text-decoration: none;
+  }
+
+  #txto {
+    width: 80%;
+  }
+
+  #div-list {
+    //border: 2px solid #000;
+    position: sticky;
+    margin: auto;
+  }
 }

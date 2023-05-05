@@ -112,7 +112,6 @@ export class RunaSelectorComponent implements OnInit {
 
     this.localS = JSON.parse(this.localS);
 
-    console.log('validar funcionalidad ON');
     if (this.miConsulta !== 'CC' && this.miNumero !== '0') {
       let mn = parseInt(this.miNumero) - 1;     
       if (this.localS[mn.toString()] === "false") {
