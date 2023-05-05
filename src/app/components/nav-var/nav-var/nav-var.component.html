@@ -1,18 +1,13 @@
-<mat-toolbar id="body">
-  <div id="div-p">
-    <div id="div-hr">
-      <p id="btn-t">Tu espacio Runico</p>
-    </div>
-    <div id="div-hl">
-      <ul id="ul">
-        <li id="btn-li" routerLink="/home">INICIO</li>
-        <li id="btn-li" routerLink="/historia">HISTORIA</li>
-        <li id="btn-li" routerLink="/tiradas">TIRADAS</li>
-        <!-- <li id="btn-li" routerLink="/productos">RITUALES</li> -->
-        <li id="btn-li" routerLink="/consultas">CONSULTAS</li>
-        <!-- <li id="btn-li" routerLink="/productos">PRODUCTOS</li> -->
-        <li id="btn-li" routerLink="/contacto">CONTACTO</li>
-      </ul>
-    </div>
-  </div>
-</mat-toolbar>
+<div>
+  <p>Tu espacio runico</p>
+  <a class="menu-desp" (click)="showMenu(mostrarMenu)"><img src="/assets/archivos/img/icons/wmenu.png"></a>
+  <ul [ngClass]="mostrarMenu">
+    <li><a routerLink="/home" (click)="hideMenu()">Inicio</a></li>
+    <li><a routerLink="/historia" (click)="hideMenu()">Historia</a></li>
+    <li><a routerLink="/tiradas" (click)="hideMenu()">Tiradas</a></li>
+    <!-- <li><a routerLink="/rituales" (click)="hideMenu()">Rituales</a></li> -->
+    <li><a routerLink="/consultas" (click)="hideMenu()">Consultas</a></li>
+    <!-- <li><a routerLink="/productos" (click)="hideMenu()">Productos</a></li> -->
+    <li><a routerLink="/contacto" (click)="hideMenu()">Contacto</a></li>
+  </ul>
+</div>

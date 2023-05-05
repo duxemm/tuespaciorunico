@@ -1,5 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   height: 100%;
@@ -33,7 +37,7 @@ body {
 }
 
 #card-text-ap {
-  width: 800px;
+  width: 80%;
   padding: 20px 0px;
   margin: auto;
   display: flex;
@@ -44,4 +48,22 @@ body {
   margin: 8px auto;
   text-align: center;
   font-size: large;
+}
+
+@media screen and (max-width: 769px) {
+  #card-text-ap {
+    width: 90%;
+    padding: 20px 0px;
+    margin: auto;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  #card-text-ap {
+    width: 90%;
+    padding: 20px 0px;
+    margin: auto;
+    display: flex;
+  }
 }
