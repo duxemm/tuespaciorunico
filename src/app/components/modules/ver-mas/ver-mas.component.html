@@ -1,4 +1,4 @@
-<div id="body">
+<!-- <div id="body">
   <button mat-fab id="btn-close" mat-dialog-close>X</button>
   <h1 mat-dialog-title id="div">{{ data.name | uppercase }}</h1>
   <h3 mat-dialog-content id="div-sub">{{ data.sig | titlecase }}</h3>
@@ -8,4 +8,15 @@
   <div>
     <p mat-dialog-content id="txt">{{ data.text }}</p>
   </div>
-</div>
+</div> -->
+<!-- <div class="margen"> -->
+  <button mat-button mat-dialog-close class=".button">X</button>
+  <div class="contenedor">
+    <h1 mat-dialog-title mat-dialog-title>{{ data.name | uppercase }}</h1>
+    <h3 mat-dialog-content>{{ data.sig | titlecase }}</h3>
+    <img src="{{ data.img }}" />
+    <div class="descripcion">
+      <p mat-dialog-content>{{ data.text }}</p>
+    </div>
+  </div>
+<!-- </div> -->

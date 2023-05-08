@@ -1,58 +1,131 @@
-#body {
-  width: auto;
-  height: auto;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  border-radius: 60px;
+}
+
+.contenedor {
   background-color: #346382;
   background-image: linear-gradient(to right, #1d2945, #646b6d);
+  width: 370px;
+  height: 530px;
 }
 
-#div {
-  text-align: center;
-  width: 380px;
+.margen {
+  padding: 5px;
+  width: 45%;
   margin: auto;
-  //   font-family: "Caesar Dressing";
-  font-size: 30px;
-  //   color: #3c535b;
-  color: #fff;
 }
 
-#div-sub {
-  text-align: center;
-  width: 380px;
-  margin: auto;
-  font-size: 22px;
-  font-style: oblique 60deg;
-  color: #fff;
-}
-
-#txt {
-  width: 360px;
-  text-align: center;
-  margin: auto;
+img {
+  margin: 0 auto;
   display: flex;
-  font-size: medium;
-  color: #fff;
+  width: 120px;
+  height: 140px;
+  font-size: small;
 }
 
-#img {
-  width: 200px;
-  height: 250px;
+h1 {
+  width: 40%;
   margin: auto;
-  display: flex;
+  text-align: center;
 }
 
-#btn-close {
-  // border-radius: 100%;
-  color: #000;
-  background-color: #fff;
-  width: 30px;
-  height: 30px;
+h3 {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+
+p {
+  margin: 10px auto;
+  text-align: center;
+  font-size: x-small;
+}
+
+button {
+  border-radius: 30px 0 0 30px; 
+  padding: 2px;
   position: absolute;
-//   z-index: 1;
-  margin-left: 338px;
-  margin-top: 6px;
+  z-index: 3;
+  top: 0px;
+  right: .5px;
+  //width: 1px;
+  //height: 1px;
+  background-color: #346382;
 }
 
-#btn-close:hover {
-  width: 35px;
-  height: 35px;
+.descripcion {
+  overflow: auto;
+  width: 300px;
+  height: 230px;
+  margin: 15px auto;
+}
+
+@media screen and (max-width: 1024px) {
+ 
+  .contenedor {
+    background-color: #346382;
+    background-image: linear-gradient(to right, #1d2945, #646b6d);
+    width: 370px;
+    height: 530px;
+  }
+
+}
+
+@media screen and (max-width: 426px) {
+ 
+  .contenedor {
+    background-color: #346382;
+    background-image: linear-gradient(to right, #1d2945, #646b6d);
+    width: 320px;
+    height: 530px;
+  }
+
+}
+
+@media screen and (max-width: 376px) {
+ 
+  .contenedor {
+    background-color: #346382;
+    background-image: linear-gradient(to right, #1d2945, #646b6d);
+    width: 256px;
+    height: 600px;
+  }
+
+  img {
+    margin: 0 auto;
+    display: flex;
+    width: 90px;
+    height: 120px;
+    font-size: small;
+  }
+
+  h3 {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+  }
+
+  h1 {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+
+  p {
+    margin: 4px auto;
+    text-align: center;
+    font-size: xx-small; 
+  }
+
+  .descripcion {
+    overflow: auto;
+    width: 230px;
+    height: 280px;
+    margin: 15px auto;
+  }
+
 }
