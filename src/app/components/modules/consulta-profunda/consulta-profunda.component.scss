@@ -25,6 +25,19 @@
   display: flex;
 }
 
+a {
+  color: #3c535b;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  color: #3c535b;
+}
+
 @media screen and (max-width: 769px) {
   #ul-ll {
     overflow: scroll;

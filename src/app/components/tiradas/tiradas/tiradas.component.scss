@@ -1,0 +1,244 @@
+h1,
+h2 {
+  font-family: "Charm";
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 28px;
+  opacity: 80%;
+  text-decoration: underline;
+}
+
+p {
+  text-align: center;
+  font-family: "Charm";
+  font-size: 20px;
+  line-height: 2;
+}
+
+.title {
+  margin: 40px auto;
+  text-align: left;
+  width: 70%;
+  font-size: 30px;
+  font-family: "Caesar Dressing", cursive;
+  color: #3c535b;
+}
+
+.hexagon {
+  background-color: #3c535b;
+  color: #fff;
+  width: 220px;
+  height: 200px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  transition: 0.5s;
+  position: relative;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.hexagon:hover {
+  transform: scale(0.9);
+  background-color: #5c8694;
+}
+
+.hexagon-selected {
+  background-color: #7dbdd2;
+  color: #fff;
+  width: 220px;
+  height: 200px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  transition: 0.5s;
+  position: relative;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.columns {
+  display: flex;
+  margin: auto;
+  width: 30%;
+}
+
+.container-two {
+  margin: auto;
+  top: 105px;
+  left: -65px;
+  position: relative;
+}
+
+.container-one {
+  margin: auto;
+}
+
+.mat-card {
+  width: 70%;
+  margin: 110px auto;
+  box-shadow: 2px 2px 5px grey;
+}
+
+#btn {
+  left: 90%;
+  background-color: #3c535b;
+  color: #fff;
+}
+
+@media screen and (max-width: 1025px) {
+  .hexagon {
+    width: 170px;
+    height: 150px;
+  }
+
+  .hexagon-selected {
+    width: 170px;
+    height: 150px;
+  }
+
+  .mat-card {
+    width: 70%;
+  }
+
+  .title {
+    width: 70%;
+  }
+
+  .container-two {
+    margin: auto;
+    top: 80px;
+    left: -53px;
+  }
+
+  .container-one {
+    margin: auto;
+    // top: 80px;
+    // left: -53px;
+  }
+
+  #btn {
+    left: 85%;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .hexagon {
+    width: 170px;
+    height: 150px;
+  }
+
+  .hexagon-selected {
+    width: 170px;
+    height: 150px;
+  }
+
+  .mat-card {
+    width: 70%;
+  }
+
+  .title {
+    width: 70%;
+  }
+
+  .container-two {
+    top: 80px;
+    left: -53px;
+  }
+
+  #btn {
+    left: 85%;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .columns {
+    margin: auto;
+  }
+}
+@media screen and (max-width: 321px) {
+  // Tamaño de hexagonos
+  .hexagon {
+    width: 120px;
+    height: 100px;
+  }
+
+  .hexagon-selected {
+    width: 120px;
+    height: 100px;
+  }
+
+  .mat-card {
+    width: 90%;
+  }
+
+  .title {
+    width: 70%;
+  }
+
+  // Posicionamineto de la columna 2 de hexagonos
+  .container-two {
+    top: 55px;
+    left: -43px;
+  }
+
+  .container-one {
+    margin: auto;
+  }
+
+  #btn {
+    left: 70%;
+    font-size: 13px;
+  }
+
+  h1 {
+    margin-top: 27px;
+    margin-bottom: 2px;
+    font-size: 17px;
+    // background-color: aqua;
+  }
+
+  h2 {
+    margin-top: 0;
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 17px;
+  }
+
+  .columns {
+    width: 80%;
+  }
+}

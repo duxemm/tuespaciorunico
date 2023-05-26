@@ -1,2 +1,112 @@
-<p>tiradas works!</p>
+<p class="title">Tiradas Runicas</p>
+<div class="general">
+  <div class="columns">
+    <div class="container-one">
+      <div class="{{ hexagonClassC }}" (click)="showerSwitch('consejo')">
+          <h1><strong>Consejo</strong></h1>
+          <h2>1 Runa</h2>
+      </div>
+      <div class="{{ hexagonClassA }}" (click)="showerSwitch('amplia')">
+        <h1><strong>Amplia</strong></h1>
+        <h2>5 Runas</h2>
+      </div>
+    </div>
+    <div class="container-two">
+      <div class="{{ hexagonClassS }}" (click)="showerSwitch('superficial')">
+        <h1><strong>Superficial</strong></h1>
+        <h2>3 Runas</h2>
+      </div>
+      <div class="{{ hexagonClassP }}" (click)="showerSwitch('profunda')">
+        <h1><strong>Profunda</strong></h1>
+        <h2>Cruz Rúnica</h2>
+      </div>
+    </div>
+  </div>
+  <!-- ==============Card de descripción==================== -->
+  <mat-card class="mat-card">
+    <mat-card-header>
+      <mat-card-title *ngIf="consejoItem">Consejo</mat-card-title>
+      <mat-card-subtitle *ngIf="consejoItem">1 Runa</mat-card-subtitle>
+
+      <mat-card-title *ngIf="superficialItem">Superficial</mat-card-title>
+      <mat-card-subtitle *ngIf="superficialItem">3 Runas</mat-card-subtitle>
+
+      <mat-card-title *ngIf="ampliaItem">Amplia</mat-card-title>
+      <mat-card-subtitle *ngIf="ampliaItem">5 Runas</mat-card-subtitle>
+
+      <mat-card-title *ngIf="profundaItem">Profunda</mat-card-title>
+      <mat-card-subtitle *ngIf="profundaItem">Cruz Runica</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content >
+      <p *ngIf="aviso">Da click sobre una opción para ver su contenido</p>
+
+      <p *ngIf="consejoItem">
+        Esta técnica es la más práctica y sencilla para utilizar el oráculo, ya
+        que consiste en elegir una runa con la finalidad de obtener una visión
+        general de una situación. Seleccionar una sola runa puede ayudarte a
+        enfocar de manera clara tu pregunta y a obtener una nueva perspectiva.
+        Asimismo, la lectura de una sola runa puede emplearse para honrar
+        eventos importantes en tu vida como tu cumpleaños, tu boda, graduación,
+        primer día de trabajo, año nuevo, etc. Para tomar una decisión, solo
+        necesitas tu bolsa de runas y si es posible un lugar tranquilo.
+      </p>
+
+      <p *ngIf="superficialItem">
+        La práctica de la lectura de las Tres Runas es adecuada para la mayoría
+        de las situaciones, salvo las más complejas y prolongadas. Para
+        realizarla, es necesario tener en mente una pregunta clara y elegir tres
+        Runas, colocándolas de derecha a izquierda y, si se desea con el símbolo
+        hacia abajo para evitar influir en la dirección de las piedras. Es
+        posible voltear las Runas una por una o todas al mismo tiempo, siempre y
+        cuando se mantenga el orden original ya que cada posición tiene un
+        significado distinto. La primera Runa, leída desde la derecha, indica la
+        situación actual, la segunda Runa sugiere la acción necesaria y la
+        tercera Runa, en la izquierda, muestra la nueva situación que se
+        presentará después de superar los desafíos. Es importante realizar la
+        lectura en un ambiente tranquilo para obtener respuestas claras.
+      </p>
+
+      <p *ngIf="ampliaItem">
+        En ocasiones, es necesario obtener información que trascienda más allá
+        del conocimiento que se puede obtener de una sola runa. La utilización
+        de la técnica de la Lectura de las Cinco Runas permite identificar las
+        características de una situación compleja o incierta. El proceso inicia
+        con la formulación clara de la pregunta, seguida de la selección de
+        cinco runas. Estas deben ser colocadas verticalmente en orden
+        descendente y cada una representa una posición específica: Perspectiva
+        global. Reto. Acción recomendada. Sacrificio. Situación evolucionada. Es
+        importante destacar que el término "sacrificio" en la cuarta runa no se
+        relaciona con el concepto de dolor o pérdida, sino con la necesidad de
+        dejar ir, cambiar o descartar algo para que pueda surgir una nueva
+        situación.
+      </p>
+
+      <p *ngIf="profundaItem">
+        La lectura de la Cruz Rúnica es una herramienta útil para obtener una
+        visión más completa de cualquier situación. Siguiendo la tradición del
+        Tarot, se eligen seis Runas que se organizan en forma de Cruz Rúnica o
+        Celta. La primera Runa representa el pasado y detalla los momentos y
+        elementos destacados del pasado en relación con el tema consultado. La
+        segunda Runa representa el presente y muestra la situación actual. La
+        tercera Runa indica el camino que tomará la situación en el futuro. La
+        cuarta Runa expone los cimientos del problema consultado, sus partes
+        instintivas y las energías que lo originaron. La quinta Runa presenta el
+        reto y señala las dificultades a superar. Finalmente, la sexta Runa
+        indica la nueva situación que surgirá al superar el reto. Debido a que
+        la Cruz Rúnica proporciona una gran cantidad de información, es
+        recomendable crear un espacio para la reflexión y meditación. Si después
+        de considerar las seis Runas todavía hay falta de claridad, se puede
+        volver a colocar todas las Runas en la bolsa y sacar una séptima Runa,
+        la Runa de la Resolución, que ayudará a reconocer la esencia de la
+        situación.
+      </p>
+    </mat-card-content>
+    <mat-card-actions *ngIf="actions">
+      <button mat-raised-button (click)="showerSwitch('')" id="btn">
+        Cerrar
+      </button>
+    </mat-card-actions>
+  </mat-card>
+</div>
+
 <app-footer></app-footer>

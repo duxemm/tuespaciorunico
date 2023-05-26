@@ -1,28 +1,39 @@
 #cont {
-    background-color: #fff;
-    margin: 20px auto;
-    width: 300px;
-    padding: 5px;
+  background-color: #fff;
+  margin: 20px auto;
+  width: 300px;
+  padding: 5px;
 }
 
 #padre {
-    margin: 20px;
+  margin: 20px;
+}
+
+a {
+  color: #3c535b;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  color: #3c535b;
 }
 
 @media screen and (max-width: 769px) {
-    #padre {
-        width: auto;
-    }
-  
+  #padre {
+    width: auto;
+  }
 }
 
 @media screen and (max-width: 320px) {
-    #padre {
-        width: auto;
-    }
+  #padre {
+    width: auto;
+  }
 
-    #cont {
-        width: 100%;
-    }
-  
+  #cont {
+    width: 100%;
+  }
 }

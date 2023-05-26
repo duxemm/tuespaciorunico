@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-consulta-amplia',
@@ -14,6 +15,8 @@ export class ConsultaAmpliaComponent implements OnInit {
   NUMDELPADRECUATRO: string = '4';
 
   CONSULTADELPADRE: string = 'C5R';
+
+  constructor(private router: Router) {}
 
   ngOnInit() {
     localStorage.setItem(
