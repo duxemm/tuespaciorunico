@@ -145,17 +145,17 @@ p {
 
 @media screen and (max-width: 769px) {
   .hexagon {
-    width: 170px;
-    height: 150px;
+    width: 220px;
+    height: 200px;
   }
 
   .hexagon-selected {
-    width: 170px;
-    height: 150px;
+    width: 220px;
+    height: 200px;
   }
 
   .mat-card {
-    width: 70%;
+    width: 80%;
   }
 
   .title {
@@ -163,8 +163,8 @@ p {
   }
 
   .container-two {
-    top: 80px;
-    left: -53px;
+    top: 105px;
+    left: -65px;
   }
 
   #btn {
@@ -184,19 +184,19 @@ p {
   }
 
   .columns {
-    margin: auto;
+    margin: 20%;
   }
 }
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 376px) {
   // Tamaño de hexagonos
   .hexagon {
-    width: 120px;
-    height: 100px;
+    width: 160px;
+    height: 140px;
   }
 
   .hexagon-selected {
-    width: 120px;
-    height: 100px;
+    width: 160px;
+    height: 140px;
   }
 
   .mat-card {
@@ -209,12 +209,12 @@ p {
 
   // Posicionamineto de la columna 2 de hexagonos
   .container-two {
-    top: 55px;
-    left: -43px;
+    top: 75px;
+    left: -50px;
   }
 
   .container-one {
-    margin: auto;
+    margin-left: -35px;
   }
 
   #btn {
@@ -226,7 +226,6 @@ p {
     margin-top: 27px;
     margin-bottom: 2px;
     font-size: 17px;
-    // background-color: aqua;
   }
 
   h2 {
@@ -239,6 +238,35 @@ p {
   }
 
   .columns {
-    width: 80%;
+    margin-left: 30%;
+  }
+
+}
+
+@media screen and (max-width: 321px) {
+  .container-one {
+    margin-left: 120px;
+  }
+
+  #btn {
+    left: 70%;
+  }
+
+  .columns {
+    margin-left: 26%;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .container-one {
+    margin-left: -80px;
+  }
+
+  .mat-card {
+    width: 90%;
+  }
+
+  #btn {
+    left: 75%;
   }
 }
