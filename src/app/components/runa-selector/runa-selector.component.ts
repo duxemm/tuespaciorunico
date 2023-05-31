@@ -99,8 +99,8 @@ export class RunaSelectorComponent implements OnInit {
     this.miNumero = this.MINUMERO;
 
     setInterval(() => {
-      this.validarFuncionalidad()
-     }, 200);
+      this.validarFuncionalidad();
+    }, 200);
   }
 
   validarFuncionalidad() {
@@ -113,24 +113,22 @@ export class RunaSelectorComponent implements OnInit {
     this.localS = JSON.parse(this.localS);
 
     if (this.miConsulta !== 'CC' && this.miNumero !== '0') {
-      let mn = parseInt(this.miNumero) - 1;     
-      if (this.localS[mn.toString()] === "false") {
+      let mn = parseInt(this.miNumero) - 1;
+      if (this.localS[mn.toString()] === 'false') {
         this.runa = 'runa-disable';
         this.isButtonDisable = true;
-      } 
+      }
 
-      if (this.localS[mn.toString()] === "true") {
+      if (this.localS[mn.toString()] === 'true') {
         console.log('entro a activar');
-        
+
         this.runa = 'runa-ap';
         this.isButtonDisable = false;
       }
-      
     }
   }
 
   iniciar() {
-
     this.isIniciar = false;
     this.isSeleccionar = true;
     this.isGif = true;
@@ -164,10 +162,10 @@ export class RunaSelectorComponent implements OnInit {
     this.isIniciar = true;
     this.isDialog = true;
 
-    this.localS[this.miNumero] = "true";
-
-    localStorage.setItem(this.miConsulta, JSON.stringify(this.localS));
-    
+    if (this.localS != null) {
+      this.localS[this.miNumero] = 'true';
+      localStorage.setItem(this.miConsulta, JSON.stringify(this.localS));
+    }
   }
 
   shuffledNumbersMethod() {

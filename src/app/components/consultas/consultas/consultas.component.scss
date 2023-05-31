@@ -10,13 +10,13 @@
 #title {
   font-family: "Caesar Dressing", cursive;
   color: #3c535b;
-  font-size: x-large;
+  font-size: 28px;
 }
 
 #rules {
   font-family: "Charm";
-  font-size: large;
-  line-height: 25px;
+  font-size: 22px;
+  line-height: 1.4;
   // text-align: start;
 }
 
@@ -27,7 +27,7 @@
 
 #instrucciones {
   margin: auto;
-  width: 80%;
+  width: 90%;
   text-align: justify;
 }
 
@@ -35,13 +35,111 @@ strong {
   color: #3c535b;
 }
 
-@media screen and (max-width: 769px) {
+// ====================================hexagon========================================
+.hexagon {
+  background-color: #3c535b;
+  width: 220px;
+  height: 200px;
+  margin-right: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  transition: 0.5s;
+  position: relative;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.hexagon:hover {
+  transform: scale(0.9);
+  background-color: #5c8694;
+}
+
+.hexagon-selected {
+  background-color: #7dbdd2;
+  width: 220px;
+  height: 200px;
+  margin-right: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  transition: 0.5s;
+  position: relative;
+  text-decoration: underline #fff;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.columns {
+  display: flex;
+  margin: 10px auto 130px auto;
+  width: 90%;
+}
+
+.container-two {
+  display: flex;
+  top: 105px;
+  right: 555px;
+  position: relative;
+}
+
+.container-one {
+  display: flex;
+  margin-left: 10px;
+}
+
+.hex-text {
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Charm";
+  color: #fff;
+}
+
+@media screen and (max-width: 1025px) {
   #card {
     width: 90%;
   }
 
   #instrucciones {
     width: 90%;
+  }
+
+}
+
+@media screen and (max-width: 769px) {
+  #card {
+    width: 95%;
+  }
+
+  #instrucciones {
+    width: 90%;
+  }
+
+  .hexagon, .hexagon-selected {
+    width: 180px;
+    height: 160px;
+    margin: 10px;
+  }
+
+  .columns {
+    display: flex;
+    margin: 10px auto 90px auto;
+    width: 90%;
+    // background-color: aqua;
+  }
+
+  .container-one {
+    display: inline;
+    margin-left: 150px;
+  }
+
+  .container-two {
+    display: inline;
+    margin-left: 110px;
+    top: 85px;
+    right: 165px;
   }
 
 }
@@ -53,5 +151,100 @@ strong {
 
   #instrucciones {
     width: 90%;
+  }
+
+  .hexagon, .hexagon-selected {
+    width: 170px;
+    height: 150px;
+    margin: 10px;
+  }
+
+  .columns {
+    display: flex;
+    margin: 10px auto 90px auto;
+    width: 90%;
+    // background-color: aqua;
+  }
+
+  .container-one {
+    display: inline;
+    margin-left: 10px;
+  }
+
+  .container-two {
+    display: inline;
+    margin-left: 110px;
+    top: 80px;
+    right: 163px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  #card {
+    width: 100%;
+  }
+
+  #instrucciones {
+    width: 90%;
+  }
+
+  .hexagon, .hexagon-selected {
+    width: 160px;
+    height: 140px;
+    margin: 10px;
+  }
+
+  .columns {
+    display: flex;
+    margin: 10px auto 90px auto;
+    width: 90%;
+    // background-color: aqua;
+  }
+
+  .container-one {
+    display: inline;
+    margin-left: 0px;
+  }
+
+  .container-two {
+    display: inline;
+    margin-left: 110px;
+    top: 75px;
+    right: 160px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  #card {
+    width: 100%;
+  }
+
+  #instrucciones {
+    width: 90%;
+  }
+
+  .hexagon, .hexagon-selected {
+    width: 160px;
+    height: 140px;
+    margin: 10px;
+  }
+
+  .columns {
+    display: flex;
+    margin: 10px auto 90px auto;
+    width: 90%;
+    // background-color: aqua;
+  }
+
+  .container-one {
+    display: inline;
+    margin-left: -28px;
+  }
+
+  .container-two {
+    display: inline;
+    margin-left: 110px;
+    top: 75px;
+    right: 160px;
   }
 }

@@ -15,11 +15,11 @@ body {
 
 #txto {
   margin: auto;
-  width: 80%;
+  width: 100%;
   text-align: justify;
-  font-size: large;
+  font-size: 22px;
   font-family: "Charm", cursive;
-  line-height: 28px;
+  line-height: 1.5;
 }
 
 #card-text {
@@ -31,9 +31,9 @@ body {
 
 #txto-ap {
   margin: auto;
-  width: 80%;
+  width: 100%;
   text-align: justify;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 #card-text-ap {
@@ -47,12 +47,12 @@ body {
   font-family: "Charm", cursive;
   margin: 8px auto;
   text-align: center;
-  font-size: large;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 769px) {
   #card-text-ap {
-    width: 90%;
+    width: 100%;
     padding: 20px 0px;
     margin: auto;
     display: flex;
@@ -73,13 +73,13 @@ body {
   }
 
   #txto {
-    width: 80%;
+    width: 90%;
   }
 }
 
 @media screen and (max-width: 426px) {
   #card-text-ap {
-    width: 90%;
+    width: 100%;
     padding: 20px 0px;
     margin: auto;
     display: flex;
@@ -100,6 +100,60 @@ body {
   }
 
   #txto {
-    width: 80%;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  #card-text-ap {
+    width: 100%;
+    padding: 20px 0px;
+    margin: auto;
+    display: flex;
+  }
+
+  #txto-ap {
+    margin: auto;
+    width: 90%;
+    text-align: justify;
+    font-size: 12px;
+  }
+
+  #card-text {
+    width: 100%;
+    padding: 20px 0px;
+    margin: auto;
+    display: flex;
+  }
+
+  #txto {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  #card-text-ap {
+    width: 100%;
+    padding: 20px 0px;
+    margin: auto;
+    display: flex;
+  }
+
+  #txto-ap {
+    margin: auto;
+    width: 90%;
+    text-align: justify;
+    font-size: 12px;
+  }
+
+  #card-text {
+    width: 100%;
+    padding: 20px 0px;
+    margin: auto;
+    display: flex;
+  }
+
+  #txto {
+    width: 90%;
   }
 }
