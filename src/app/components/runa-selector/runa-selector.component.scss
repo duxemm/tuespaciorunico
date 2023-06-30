@@ -71,9 +71,8 @@
   width: 240px;
   height: 35px;
   margin: 10px auto;
-  display: flex; 
+  display: flex;
   border-radius: 12px;
-  
 }
 
 #p-mas {
@@ -154,7 +153,36 @@
   width: 130px;
   height: 35px;
   margin: 10px auto;
-  display: flex; 
+  display: flex;
   border-radius: 12px;
   font-size: small;
+}
+
+.loader {
+  width: 80%;
+  height: 80%;
+  margin-left: 15px;
+  margin-top: 15px;
+  -webkit-animation: 1s rotate reverse infinite;
+  animation: 1s rotate reverse infinite;
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
 }

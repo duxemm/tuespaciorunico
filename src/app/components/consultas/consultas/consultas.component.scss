@@ -17,6 +17,8 @@
   font-family: "Charm";
   font-size: 22px;
   line-height: 1.4;
+  margin: auto;
+  width: 70%;
   // text-align: start;
 }
 
@@ -33,6 +35,34 @@
 
 strong {
   color: #3c535b;
+}
+
+.izq {
+  display: flex;
+  // background-color: #7dbdd2;
+  box-shadow: 7px 7px 13px #5c8694;
+  padding: 15px;
+  border-radius: 25px;
+  position: relative;
+  left: -5%;
+  margin: 40px 0;
+}
+
+.der {
+  display: flex;
+  // background-color: #7dbdd2;
+  box-shadow: 7px 7px 13px #5c8694;
+  padding: 15px;
+  border-radius: 25px;
+  position: relative;
+  right: -5%;
+  margin: 40px 0;
+}
+
+img {
+  width: 20%;
+  border-radius: 30px;
+  border: 3px dashed #7dbdd2;
 }
 
 // ====================================hexagon========================================
@@ -142,6 +172,14 @@ strong {
     right: 165px;
   }
 
+  img {
+    width: 25%;
+  }
+
+  #rules{
+    width: 65%;
+  }
+
 }
 
 @media screen and (max-width: 426px) {
@@ -176,6 +214,21 @@ strong {
     margin-left: 110px;
     top: 80px;
     right: 163px;
+  }
+
+  .der, .izq {
+    display: table;
+  }
+
+  img {
+    align-items: center;
+    align-content: center;
+    margin: 10px 15%;
+    width: 70%;
+  }
+
+  #rules {
+    width: 90%;
   }
 }
 

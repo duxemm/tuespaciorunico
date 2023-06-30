@@ -1,94 +1,102 @@
-<mat-card id="card">
-  <mat-card-header>
-    <mat-card-title id="title">CONSULTAS RUNICAS</mat-card-title>
-  </mat-card-header>
-  <mat-card-content>
-    <br /><br />
-    <div id="instrucciones-p">
-      <div id="instrucciones">
-        <p id="rules">Instrucciones</p>
-        <p id="rules">
-          1.- Formula y mantén en mente la cuestión a presentar sin divagar ni
-          distraerte.
-        </p>
-        <p id="rules">
-          2.- Haz clic o presiona el botón de <strong>"Iniciar"</strong>.
-        </p>
-        <p id="rules">
-          3.- Cuando sientas el momento indicado, haz clic o presiona el botón
-          <strong>"Seleccionar"</strong> para elegir tu runa. Puedes valerte de
-          tu intuición para identificar el momento adecuado.
-        </p>
-        <p id="rules">
-          4.- Para conocer la interpretación y otros detalles de la runa
-          seleccionada, haz clic o presiona el botón <strong>"Ver más"</strong>.
-        </p>
-        <p id="rules">
-          5.- Continúa con la siguiente runa según su numeración y repite los
-          pasos del punto 2 en adelante.
-        </p><br>
-        <p id="rules">Que éstos consejos iluminen e inspiren tu proceder.</p>
-      </div>
-    </div>
-    <br />
-
-    <!-- ===================Hexagon================== -->
-
-    <div class="columns">
-      <div class="container-one">
-        <div class="{{ hexagonClassC }}" (click)="showerSwitch('consejo')">
-            <p class="hex-text">Consejo</p>
-        </div>
-        <div class="{{ hexagonClassA }}" (click)="showerSwitch('amplia')">
-          <p class="hex-text">Amplia</p>
-        </div>
-      </div>
-      <div class="container-two">
-        <div class="{{ hexagonClassS }}" (click)="showerSwitch('superficial')">
-          <p class="hex-text">Superficial</p>
-        </div>
-        <div class="{{ hexagonClassP }}" (click)="showerSwitch('profunda')">
-          <p class="hex-text">Profunda</p>
-        </div>
-      </div>
-    </div>
-
-    <app-consulta-consejo *ngIf="consejoItem"></app-consulta-consejo>
-    <app-consulta-superficial *ngIf="superficialItem"></app-consulta-superficial>
-    <app-consulta-amplia *ngIf="ampliaItem"></app-consulta-amplia>
-    <app-consulta-profunda *ngIf="profundaItem"></app-consulta-profunda>
-
-    <!-- ================================================= -->
-
-    <!-- <mat-tab-group animationDuration="700ms" class="tab-item" >
-      <mat-tab label="Consejo" 
-        ><app-consulta-consejo ></app-consulta-consejo
-      ></mat-tab>
-      <mat-tab label="Superficial"
-        ><app-consulta-superficial></app-consulta-superficial
-      ></mat-tab>
-      <mat-tab label="Amplia"
-        ><app-consulta-amplia></app-consulta-amplia
-      ></mat-tab>
-      <mat-tab label="Profunda"
-        ><app-consulta-profunda></app-consulta-profunda
-      ></mat-tab>
-    </mat-tab-group> -->
-
+<app-nav-var></app-nav-var>
+<div class="bkg">
+  <mat-card id="card">
+    <mat-card-header>
+      <mat-card-title id="title">CONSULTAS RUNICAS</mat-card-title>
+    </mat-card-header>
     <mat-card-content>
-      <div id="card-text-ap">
-        <p id="txto-ap">
-          Los conceptos de cada runa que se muestran en estas consultas tienen
-          un carácter interpretativo. Por lo tanto, pueden ser utilizados como
-          referencia o como una simulación de una consulta rúnica real. Si
-          deseas una consulta rúnica real, profunda y personalizada, te
-          invitamos a que te comuniques a través de los medios establecidos en
-          la pestaña de "Contacto" o bien en los medios listados en la parte
-          inferior de este sitio web.
-        </p>
+      <br /><br />
+      <div id="instrucciones-p">
+        <div id="instrucciones">
+          <p id="rules">Sigue estos pasos para usar TER:</p>
+
+          <div class="izq">
+            <img src="/assets/archivos/img/rules/reflexion.jpg" alt="" />
+            <p id="rules">
+              Formula y mantén en mente la cuestión a presentar sin divagar ni
+              distraerte. 
+              Haz clic o presiona el botón de <strong>"Iniciar"</strong>.
+            </p>
+          </div>
+
+          <div class="der">
+            <p id="rules">
+              Cuando sientas el momento indicado, haz clic o presiona el
+              botón
+              <strong>"Seleccionar"</strong> para elegir tu runa. Puedes valerte
+              de tu intuición para identificar el momento adecuado.
+            </p>
+            <img src="/assets/archivos/img/rules/seleccionar.jpg" alt="">
+          </div>
+
+          <div class="izq">
+            <img src="/assets/archivos/img/rules/ver-mas.jpg" alt="">
+            <p id="rules">
+              Para conocer la interpretación y otros detalles de la runa
+              seleccionada, haz clic o presiona el botón
+              <strong>"Ver más"</strong>.
+            </p>
+          </div>
+
+          <div class="der">
+            <p id="rules">
+              Continúa con la siguiente runa según su numeración y repite
+              los pasos desde el botón <strong>"Iniciar"</strong>.
+            </p>
+            <img src="/assets/archivos/img/rules/siguiente.jpg" alt="">
+          </div>
+          <br />
+          <p id="rules">Que éstos consejos iluminen e inspiren tu proceder.</p>
+        </div>
       </div>
+      <br />
+
+      <!-- ===================Hexagon================== -->
+
+      <div class="columns">
+        <div class="container-one">
+          <div class="{{ hexagonClassC }}" (click)="showerSwitch('consejo')">
+            <p class="hex-text">Consejo</p>
+          </div>
+          <div class="{{ hexagonClassA }}" (click)="showerSwitch('amplia')">
+            <p class="hex-text">Amplia</p>
+          </div>
+        </div>
+        <div class="container-two">
+          <div
+            class="{{ hexagonClassS }}"
+            (click)="showerSwitch('superficial')"
+          >
+            <p class="hex-text">Superficial</p>
+          </div>
+          <div class="{{ hexagonClassP }}" (click)="showerSwitch('profunda')">
+            <p class="hex-text">Profunda</p>
+          </div>
+        </div>
+      </div>
+
+      <app-consulta-consejo *ngIf="consejoItem"></app-consulta-consejo>
+      <app-consulta-superficial
+        *ngIf="superficialItem"
+      ></app-consulta-superficial>
+      <app-consulta-amplia *ngIf="ampliaItem"></app-consulta-amplia>
+      <app-consulta-profunda *ngIf="profundaItem"></app-consulta-profunda>
+
+      <mat-card-content>
+        <div id="card-text-ap">
+          <p id="txto-ap">
+            Los conceptos de cada runa que se muestran en estas consultas tienen
+            un carácter interpretativo. Por lo tanto, pueden ser utilizados como
+            referencia o como una simulación de una consulta rúnica real. Si
+            deseas una consulta rúnica real, profunda y personalizada, te
+            invitamos a que te comuniques a través de los medios establecidos en
+            la pestaña de "Contacto" o bien en los medios listados en la parte
+            inferior de este sitio web.
+          </p>
+        </div>
+      </mat-card-content>
     </mat-card-content>
-  </mat-card-content>
-</mat-card>
+  </mat-card>
+</div>
 
 <app-footer></app-footer>
